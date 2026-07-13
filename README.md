@@ -8,7 +8,6 @@ A one-page personal portfolio inspired by Gen X Soft Club: muted urban futurism,
 - `css/style.css` — responsive visual system and animation
 - `js/main.js` — header state, scroll reveals, and ambient parallax
 - `PRD.md` — product requirements, research synthesis, and design rationale
-- `assets/me.jpg` — portrait
 - `assets/cv/Harshil_Shah_Resume_2026.pdf` — downloadable résumé
 
 ## Run locally

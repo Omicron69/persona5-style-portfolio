@@ -14,7 +14,7 @@ Design translation:
 
 - Muted mineral palette: eucalyptus, fog, stone, steel-blue, charcoal, with a controlled acid-lime signal colour.
 - Neo-grotesque typography for functional information, paired with an editorial italic serif for human warmth.
-- Large cinematic portrait treatment with colour grading, haze, grain, radial light, and soft bloom.
+- Large cinematic abstract treatment with haze, grain, radial light, and soft bloom.
 - Transit-inspired metadata: coordinates, route history, numbered sections, fine rules, status markers, and compact uppercase labels.
 - Minimal chrome and generous negative space, avoiding gratuitous retro UI decoration.
 - Ambient motion that suggests screensavers, music visuals, and transport rather than loud interaction effects.
@@ -83,7 +83,7 @@ Sources:
 - Signal: acid-lime `#c8df3d`, used sparingly for status and navigation cues.
 - Typography: DM Sans for interface/content; Instrument Serif italic for expressive emphasis; system fallbacks included.
 - Layout: wide editorial grid, strong rule lines, oversized headlines, compact metadata.
-- Photography: existing portrait, editorial crop, reduced saturation, subtle colour cast and haze.
+- Imagery: abstract spheres, editorial crops, subtle colour casts, grain, and haze.
 
 ## 9. Content constraints and assumptions
 
