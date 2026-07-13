@@ -1,108 +1,202 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Harshil Shah's product and project management portfolio.">
-  <title>Harshil Shah · Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Harshil Shah is a Management Engineering student building useful products and making complex work easier to move forward.">
+  <meta name="theme-color" content="#d9e1dc">
+  <meta property="og:title" content="Harshil Shah — Product, projects &amp; technology">
+  <meta property="og:description" content="A portfolio about product thinking, practical systems, and useful technology.">
+  <meta property="og:image" content="assets/me.jpg">
+  <title>Harshil Shah — Product &amp; Projects</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#top" aria-label="Back to top">HS<span>.</span></a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="wordmark" href="#top" aria-label="Harshil Shah, back to top">
+      <span class="wordmark-mark" aria-hidden="true"></span>
+      Harshil Shah
+    </a>
     <nav aria-label="Primary navigation">
+      <a href="#work">Work</a>
       <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
       <a href="#about">About</a>
-      <a href="#contact">Contact</a>
     </nav>
+    <a class="header-contact" href="mailto:hvshah@uwaterloo.ca">Contact <span aria-hidden="true">↗</span></a>
   </header>
 
-  <main id="top">
-    <section class="hero section-shell">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Product · Projects · Technology</p>
-        <h1>Harshil<br><span>Shah</span></h1>
-        <p class="hero-text">Management Engineering student at the University of Waterloo interested in building useful products and making complex projects easier to move forward.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">View my work</a>
-          <a class="text-link" href="mailto:hvshah@uwaterloo.ca">Get in touch ↗</a>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-ambient" aria-hidden="true">
+        <span class="orb orb-one"></span>
+        <span class="orb orb-two"></span>
+        <span class="route-line"></span>
+      </div>
+
+      <div class="hero-meta reveal">
+        <span>Portfolio / 2026</span>
+        <span>Toronto · Waterloo</span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="kicker reveal">Product · Projects · Technology</p>
+        <h1 id="hero-title" class="reveal">Turning ambiguity<br>into <em>momentum.</em></h1>
+        <p class="hero-intro reveal">I’m Harshil, a Management Engineering student at the University of Waterloo. I build useful products and systems that help people move complex work forward.</p>
+        <div class="hero-actions reveal">
+          <a class="pill pill-dark" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+          <a class="pill pill-glass" href="assets/cv/Harshil_Shah_Resume_2026.pdf" target="_blank">View résumé <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <aside class="status-card reveal" aria-label="Current status">
-        <span class="status-dot"></span>
-        <p>Currently</p>
-        <strong>Incoming Product Intern at American Express</strong>
-        <small>Toronto · Fall 2026</small>
-      </aside>
-    </section>
 
-    <section class="section-shell" id="experience">
-      <div class="section-heading reveal">
-        <p>01</p>
-        <h2>Experience</h2>
-      </div>
-      <div class="timeline">
-        <article class="timeline-item reveal">
-          <p class="date">Fall 2026</p>
-          <div><h3>American Express</h3><p class="role">Product Intern</p><p>Supporting product and relationship management across American Express card, lending, or insurance products.</p></div>
-        </article>
-        <article class="timeline-item reveal">
-          <p class="date">2026</p>
-          <div><h3>Dayforce</h3><p class="role">Project Management Intern</p><p>Coordinated governance for technical initiatives and built Jira automations and an AI-powered status reporting workflow.</p></div>
-        </article>
-        <article class="timeline-item reveal">
-          <p class="date">2025</p>
-          <div><h3>Suncor</h3><p class="role">Project Controls Co-op</p><p>Built reporting and project-tracking tools for a major capital-project portfolio.</p></div>
-        </article>
-        <article class="timeline-item reveal">
-          <p class="date">2024</p>
-          <div><h3>BlackBerry QNX</h3><p class="role">Project & Release Management Intern</p><p>Supported technical project managers across automotive software development and release planning.</p></div>
-        </article>
+      <div class="hero-index reveal" aria-hidden="true">
+        <span>43.6532° N</span>
+        <span class="index-rule"></span>
+        <span>079.3832° W</span>
       </div>
     </section>
 
-    <section class="section-shell" id="projects">
-      <div class="section-heading reveal">
-        <p>02</p>
-        <h2>Selected projects</h2>
+    <div class="ticker" aria-label="Currently incoming Product Intern at American Express">
+      <div class="ticker-track">
+        <span>Currently</span><strong>Incoming Product Intern · American Express · Fall 2026</strong><i>✳</i>
+        <span aria-hidden="true">Currently</span><strong aria-hidden="true">Incoming Product Intern · American Express · Fall 2026</strong><i aria-hidden="true">✳</i>
       </div>
-      <div class="project-grid">
-        <a class="project-card reveal" href="https://github.com/harshilshaah/CivicLens---Capstone-2027" target="_blank" rel="noopener">
-          <div class="project-number">01</div><p class="project-tag">Civic tech · Capstone</p><h3>CivicLens</h3><p>A mobile-first platform for reporting municipal issues using photo uploads and AI-assisted classification.</p><span>View project ↗</span>
+    </div>
+
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="section-label reveal">
+        <span>01</span>
+        <p>Selected work</p>
+      </div>
+      <div class="section-intro reveal">
+        <h2 id="work-title">Ideas made<br><i>tangible.</i></h2>
+        <p>Product concepts and tools built around a simple principle: understand the friction, then make the next step obvious.</p>
+      </div>
+
+      <div class="project-list">
+        <a class="project-card reveal" href="https://github.com/harshilshaah/CivicLens---Capstone-2027" target="_blank" rel="noopener noreferrer">
+          <div class="project-visual civic-visual" aria-hidden="true">
+            <span class="visual-grid"></span>
+            <span class="map-ring ring-one"></span>
+            <span class="map-ring ring-two"></span>
+            <span class="map-pin"></span>
+            <p>REPORT / ROUTE / RESOLVE</p>
+          </div>
+          <div class="project-copy">
+            <div class="project-topline"><span>01 · Civic tech</span><span>2027</span></div>
+            <h3>CivicLens</h3>
+            <p>A mobile-first platform for reporting municipal issues through photo uploads and AI-assisted classification.</p>
+            <ul aria-label="Technologies"><li>Product strategy</li><li>AI classification</li><li>Mobile UX</li></ul>
+            <span class="project-link">Open project <span aria-hidden="true">↗</span></span>
+          </div>
         </a>
-        <article class="project-card reveal">
-          <div class="project-number">02</div><p class="project-tag">UX · Workforce tools</p><h3>ShiftSync</h3><p>A workforce scheduling concept designed around shift swaps, emergency coverage, and manager approvals.</p><span>Figma case study</span>
+
+        <article class="project-card project-reverse reveal">
+          <div class="project-visual shift-visual" aria-hidden="true">
+            <div class="schedule-window">
+              <span class="window-top"><i></i><i></i><i></i></span>
+              <div class="shift-row"><b>M</b><span></span><small>08—16</small></div>
+              <div class="shift-row"><b>T</b><span></span><small>SWAP</small></div>
+              <div class="shift-row"><b>W</b><span></span><small>12—20</small></div>
+            </div>
+            <p>PEOPLE / TIME / COVERAGE</p>
+          </div>
+          <div class="project-copy">
+            <div class="project-topline"><span>02 · Workforce tools</span><span>Concept</span></div>
+            <h3>ShiftSync</h3>
+            <p>A workforce scheduling concept designed around shift swaps, urgent coverage, and clear manager approvals.</p>
+            <ul aria-label="Disciplines"><li>UX research</li><li>Interaction design</li><li>Figma</li></ul>
+            <span class="project-link">Product concept</span>
+          </div>
         </article>
-        <a class="project-card reveal" href="https://github.com/harshilshaah/Spotify-Album-Finder" target="_blank" rel="noopener">
-          <div class="project-number">03</div><p class="project-tag">React · Spotify API</p><h3>Spotify Album Finder</h3><p>A lightweight web app for searching artists and browsing their albums, release dates, and Spotify links.</p><span>View project ↗</span>
+
+        <a class="project-card reveal" href="https://github.com/harshilshaah/Spotify-Album-Finder" target="_blank" rel="noopener noreferrer">
+          <div class="project-visual sound-visual" aria-hidden="true">
+            <div class="disc"><span></span></div>
+            <div class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <p>SEARCH / LISTEN / DISCOVER</p>
+          </div>
+          <div class="project-copy">
+            <div class="project-topline"><span>03 · Music discovery</span><span>Web app</span></div>
+            <h3>Album Finder</h3>
+            <p>A focused Spotify search experience for browsing artists, releases, dates, and direct listening links.</p>
+            <ul aria-label="Technologies"><li>React</li><li>Spotify API</li><li>Responsive UI</li></ul>
+            <span class="project-link">Open project <span aria-hidden="true">↗</span></span>
+          </div>
         </a>
       </div>
     </section>
 
-    <section class="section-shell about" id="about">
-      <div class="section-heading reveal"><p>03</p><h2>About</h2></div>
-      <div class="about-grid reveal">
-        <p class="about-lead">I like working where product, people, and technology overlap.</p>
-        <div><p>I’m a Management Engineering student at Waterloo with experience across product, project management, software, and capital projects. I enjoy turning unclear problems into practical plans, tools, and products that people can actually use.</p><p>Outside of work, I’m usually listening to music, reading, playing volleyball or pickleball, or building another Spotify-related side project.</p></div>
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="section-label reveal"><span>02</span><p>Route history</p></div>
+      <div class="experience-heading reveal">
+        <h2 id="experience-title">Experience across<br>products &amp; systems.</h2>
+        <p>Four stops, one through-line: bringing structure to complicated work.</p>
+      </div>
+
+      <ol class="timeline">
+        <li class="reveal">
+          <div class="time-marker"><span></span><time>Fall 2026</time></div>
+          <div><p class="company">American Express</p><h3>Product Intern</h3></div>
+          <p>Supporting product and relationship management across financial products.</p>
+        </li>
+        <li class="reveal">
+          <div class="time-marker"><span></span><time>2026</time></div>
+          <div><p class="company">Dayforce</p><h3>Project Management Intern</h3></div>
+          <p>Coordinated technical governance and built Jira automations and AI-powered reporting workflows.</p>
+        </li>
+        <li class="reveal">
+          <div class="time-marker"><span></span><time>2025</time></div>
+          <div><p class="company">Suncor</p><h3>Project Controls Co-op</h3></div>
+          <p>Built reporting and project-tracking tools for a major capital-project portfolio.</p>
+        </li>
+        <li class="reveal">
+          <div class="time-marker"><span></span><time>2024</time></div>
+          <div><p class="company">BlackBerry QNX</p><h3>Project &amp; Release Management Intern</h3></div>
+          <p>Supported automotive software development through release planning and coordination.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="portrait-wrap reveal">
+        <img src="assets/me.jpg" alt="Harshil Shah smiling in a dark suit" width="800" height="800" loading="lazy">
+        <div class="portrait-caption"><span>Portrait / 01</span><span>In focus</span></div>
+      </div>
+      <div class="about-copy">
+        <div class="section-label reveal"><span>03</span><p>About</p></div>
+        <h2 id="about-title" class="reveal">At the intersection of<br><i>people and systems.</i></h2>
+        <p class="about-lead reveal">I enjoy turning unclear problems into practical plans, tools, and products people can actually use.</p>
+        <div class="about-details reveal">
+          <p>My experience spans product, project management, software, and capital projects. That range helps me translate between teams, spot the real constraint, and keep the work moving.</p>
+          <p>Off the clock, I’m usually listening to music, reading, playing volleyball or pickleball, or building another Spotify-related side project.</p>
+        </div>
+        <div class="skills reveal" aria-label="Areas of focus">
+          <span>Product thinking</span><span>Project systems</span><span>UX strategy</span><span>Automation</span>
+        </div>
       </div>
     </section>
 
-    <section class="contact section-shell" id="contact">
-      <p class="eyebrow reveal">Let’s connect</p>
-      <h2 class="reveal">Have an idea or just want to talk?</h2>
-      <a class="contact-email reveal" href="mailto:hvshah@uwaterloo.ca">hvshah@uwaterloo.ca ↗</a>
-      <div class="social-links reveal">
-        <a href="https://linkedin.com/in/harshilshaah/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://github.com/harshilshaah" target="_blank" rel="noopener">GitHub</a>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-orb" aria-hidden="true"></div>
+      <p class="kicker reveal">Next connection</p>
+      <h2 id="contact-title" class="reveal">Let’s make something<br><i>move.</i></h2>
+      <a class="contact-email reveal" href="mailto:hvshah@uwaterloo.ca">hvshah@uwaterloo.ca <span aria-hidden="true">↗</span></a>
+      <div class="contact-links reveal">
+        <a href="https://linkedin.com/in/harshilshaah/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com/harshilshaah" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="assets/cv/Harshil_Shah_Resume_2026.pdf" target="_blank">Résumé ↗</a>
       </div>
     </section>
   </main>
 
-  <footer><p>Designed and built by Harshil Shah.</p><a href="#top">Back to top ↑</a></footer>
-  <script src="js/main.js"></script>
+  <footer>
+    <p>Designed &amp; built by Harshil Shah.</p>
+    <p><span class="status-dot" aria-hidden="true"></span> Open to good conversations</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
 </body>
 </html>
